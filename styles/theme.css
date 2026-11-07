@@ -1,0 +1,11 @@
+
+:root{--accent:#33427a;--accent-soft:#e3e6f3;--warn:#8a3b12;--warn-soft:#f5e3d6;}
+
+/* 접근성: 키보드 포커스 링 */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
